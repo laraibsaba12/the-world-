@@ -1,5 +1,5 @@
-import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import TopBar from "../Components/TopBar";
+import Navbar from "../Components/Navbar";
 
 import AboutHero from "../Components/AboutHero";
 import OurStory from "../Components/OurStory";
@@ -14,6 +14,7 @@ export default function AboutPage() {
   return (
     <>
       <TopBar />
+      
       <Navbar />
 
       <AboutHero />

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import TopBar from "../Components/TopBar";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 import AdmissionHero from "../Components/AdmissionHero";
 import AdmissionProcess from "../Components/AdmissionProcess";

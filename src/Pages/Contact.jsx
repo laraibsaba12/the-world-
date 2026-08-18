@@ -1,6 +1,6 @@
-import TopBar from "../components/TopBar";
+import TopBar from "../Components/TopBar";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 import ContactHero from "../Components/ContactHero";
 import ContactCards from "../Components/ContactCards";
