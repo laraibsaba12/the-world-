@@ -1,11 +1,12 @@
 import TopBar from "../Components/TopBar";
-import Navbar from "../components/Navbar";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
+import Navbar from "../Components/Navbar";
 
 import ContactHero from "../Components/ContactHero";
 import ContactCards from "../Components/ContactCards";
 import MapSection from "../Components/MapSection";
 import ContactFAQ from "../Components/ContactFAQ";
+
 
 export default function Contact() {
   return (
