@@ -8,13 +8,13 @@ import AboutFeatures from "../Components/AboutFeatures";
 import WhatWeTeach from "../Components/WhatWeTeach";
 import CampusSection from "../Components/CampusSection";
 
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 export default function AboutPage() {
   return (
     <>
       <TopBar />
-      
+
       <Navbar />
 
       <AboutHero />

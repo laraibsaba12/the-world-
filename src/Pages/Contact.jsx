@@ -1,5 +1,5 @@
 import TopBar from "../Components/TopBar";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
 import ContactHero from "../Components/ContactHero";
