@@ -1,0 +1,23 @@
+.box{
+    border: 2px transparent;
+    border-radius: 12px;
+    width: 200px;
+    font-size: larger;
+    padding: 20px ;
+    text-align:  center;
+    margin: 20px;
+    float: left;
+    
+}
+#box1{
+    background-color: rgb(69, 15, 69);
+    color: aliceblue;
+}
+#box2{
+    background-color: rgb(34, 16, 76);
+    color: aliceblue;
+}
+#box3{
+    background-color: rgb(10, 49, 15);
+    color: aliceblue;
+}
