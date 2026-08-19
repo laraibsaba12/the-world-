@@ -1,6 +1,6 @@
 import { FaCheckCircle } from "react-icons/fa";
 
-export default function MS() {
+export default function Ms() {
   const skills = [
     "Microsoft Word",
     "Microsoft Excel",

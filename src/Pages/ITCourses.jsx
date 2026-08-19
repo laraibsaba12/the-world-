@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar";
 import CourseHero from "../Components/CourseHero";
 import CourseCategories from "../Components/CourseCategories";
 import WebDevelopmentSection from "../Components/WebDevelopmentSection";
-import MS from "../Components/MS";
+import Ms from "../Components/Ms";
 import Digital from "../Components/Digital";
 import Graphics from "../Components/Graphics";
 import UI from "../Components/UI";
@@ -41,7 +41,7 @@ export default function ITCourses() {
       <CourseCategories />
 
       <WebDevelopmentSection />
-      <MS />
+      <Ms />
       <Digital />
       <Graphics />
       <UI />
