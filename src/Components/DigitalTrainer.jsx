@@ -83,7 +83,7 @@ export default function DigitalTrainer() {
     <div className="absolute -inset-2 bg-cyan-500/20 blur-xl rounded-2xl"></div>
 
     {/* Exact rare.png */}
-    <div className="relative w-[250px]">
+    <div className="relative w-[62.5px]">
       <img
         src={rare}
         alt="Sir Abdul Razzaq"

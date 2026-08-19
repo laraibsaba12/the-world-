@@ -13,7 +13,7 @@ export default function MS() {
   return (
     <section
       id="ms-office"
-      className="relative py-20 bg-gradient-to-b from-[#07101d] via-[#0b1526] to-[#07101d] overflow-hidden"
+      className="relative py-20 bg-linear-to-b from-[#07101d] via-[#0b1526] to-[#07101d] overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-80 h-80 bg-cyan-500/10 blur-[150px] rounded-full"></div>
@@ -56,7 +56,7 @@ export default function MS() {
                   key={skill}
                   className="flex items-center gap-3 bg-white/5 backdrop-blur-xl border border-cyan-400/10 rounded-xl px-4 py-3 hover:border-cyan-400 hover:bg-white/10 transition-all duration-300"
                 >
-                  <FaCheckCircle className="text-cyan-400 text-base flex-shrink-0" />
+                  <FaCheckCircle className="text-cyan-400 text-base shrink-0" />
 
                   <span className="text-white font-medium text-base">
                     {skill}
@@ -74,19 +74,17 @@ export default function MS() {
               <div className="absolute -inset-5 bg-cyan-500/20 blur-3xl rounded-[35px]"></div>
 
               {/* Video Box */}
-              <div className="relative w-[400px] h-[390px] sm:w-[430px] sm:h-[420px] rounded-[30px] overflow-hidden border border-cyan-400/20 bg-white/5 backdrop-blur-xl shadow-[0_0_60px_rgba(0,255,255,.25)]">
-
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover"
-                >
-                  <source src="/ms.mp4" type="video/mp4" />
-                </video>
-
-              </div>
+            <div className="relative w-[470px] h-[450px] rounded-[30px] overflow-hidden border border-cyan-400/20 bg-white/5 backdrop-blur-xl shadow-[0_0_60px_rgba(0,255,255,.25)]">
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full h-full object-cover"
+  >
+    <source src="/ms.mp4" type="video/mp4" />
+  </video>
+</div>
 
               {/* ================= TOP CARD ================= */}
               <div className="absolute top-5 -left-5 sm:-left-7 bg-[#07101d]/95 backdrop-blur-xl border border-cyan-400/20 rounded-2xl px-5 py-3 shadow-lg">
