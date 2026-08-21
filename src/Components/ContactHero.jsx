@@ -139,15 +139,7 @@ export default function ContactHero() {
             <div className="fade-content flex flex-wrap gap-4 mt-7">
 
               {/* CONTACT NOW */}
-              <button
-                type="button"
-                onClick={handleContactClick}
-                className="group px-7 py-3.5 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white text-sm md:text-base font-semibold flex items-center gap-3 shadow-[0_10px_30px_rgba(6,182,212,0.3)] hover:shadow-[0_12px_40px_rgba(6,182,212,0.45)] hover:-translate-y-1 transition-all duration-300 cursor-pointer"
-              >
-                Contact Now
-
-                <FaArrowRight className="text-sm group-hover:translate-x-1.5 transition-transform duration-300" />
-              </button>
+      
 
               {/* GET DIRECTIONS */}
               <a
